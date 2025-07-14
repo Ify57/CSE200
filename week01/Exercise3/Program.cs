@@ -4,6 +4,16 @@ class Program
 {
     static void Main(string[] args)
     {
-        Console.WriteLine("Hello World! This is the Exercise3 Project.");
+        // loops
+        int x = 20;
+        while (x >= 20)
+        {
+            Console.WriteLine($"{x++}");
+            if (x++ > 30)
+            {
+                break;
+            }
+
+        }
     }
 }

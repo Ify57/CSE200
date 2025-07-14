@@ -4,6 +4,11 @@ class Program
 {
     static void Main(string[] args)
     {
-        Console.WriteLine("Hello World! This is the Exercise5 Project.");
+        // method/function
+        static void MyMethod()
+        {
+            Console.WriteLine("this is a method");
+        }
+
     }
 }

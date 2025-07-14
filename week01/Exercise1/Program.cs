@@ -4,6 +4,13 @@ class Program
 {
     static void Main(string[] args)
     {
-        Console.WriteLine("Hello World! This is the Exercise1 Project.");
+        // variable
+        int num = 10;
+        Console.WriteLine(num);
+        // input
+        Console.WriteLine("whats ur name");
+        // OUTPUT
+        String name = Console.ReadLine();
+        Console.WriteLine("hello" +" "+ name);
     }
 }
