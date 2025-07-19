@@ -9,7 +9,7 @@ class Program
 
         while (true)
         {
-            Console.WriteLine("Enter A Number");
+            Console.WriteLine("Enter A list of Number type 0 to stop");
             string list = Console.ReadLine();
             int number = int.Parse(list);
             List<int> ages = new List<int>();
@@ -19,6 +19,7 @@ class Program
             }
             else
             {
+                Console.WriteLine(ages.Count);
                 break;
             }
             
