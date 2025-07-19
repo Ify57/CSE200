@@ -1,13 +1,27 @@
 using System;
+using System.Collections.Generic;
 
 class Program
 {
     static void Main(string[] args)
     {
-        // List
-        List<int> ages = new List<int>();
-        ages.Add(10);
-        ages.Add(11);
-        ages.Add(12);
+
+
+        while (true)
+        {
+            Console.WriteLine("Enter A Number");
+            string list = Console.ReadLine();
+            int number = int.Parse(list);
+            List<int> ages = new List<int>();
+            if (number != 0)
+            {
+                ages.Add(number);
+            }
+            else
+            {
+                break;
+            }
+            
+        }
     }
 }
