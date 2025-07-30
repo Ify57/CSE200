@@ -11,20 +11,21 @@ class Program
         4) Load the journal from a file
         5) Exit
         """);
+        Journal call = new Journal();
+
         string choice = Console.ReadLine();
         int number = int.Parse(choice);
-        if (number == 1)
-        {
+        if (number == 1)        {
             while (true)
             {
-                write_entry call = new write_entry();
+                // Journal call = new Journal();
                 call.WriteEntry();
             }
         }
         else if (number == 2)
         {
-            displayJournal dis = new displayJournal();
-            dis.display();
+            // displayJournal dis = new displayJournal();
+            call.display();
 
         }
         // else if (number == 3)
@@ -35,8 +36,7 @@ class Program
 
         else if (number == 4)
         {
-            LoadJournalFromFile load = new LoadJournalFromFile();
-            load.LoadFromFile();
+            call.LoadFromFile();
         }
         else if (number == 5)
         {
