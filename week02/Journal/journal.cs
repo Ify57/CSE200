@@ -1,7 +1,7 @@
 using System;
 using System.IO;
 
-public class Journal()
+public  class Journal()
 {
     // display method
     public void display()
